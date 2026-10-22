@@ -14,3 +14,15 @@ Voici les fonctionnalités du projet :
 ## 📸 Démonstration
 
 Lien vers le projet :
+
+## 🛠️ Projet développé avec
+
+- Utilisation des balises sémantiques HTML5
+- CSS3
+- Flexbox
+- Animations CSS (@keyframes)
+- Page web responsive
+- Desktop first
+- Utilisation du normaliseur : le fichier normalize.css
+- Commentaires HTML
+- Commentaires CSS
