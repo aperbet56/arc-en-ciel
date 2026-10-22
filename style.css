@@ -1,0 +1,70 @@
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** body ****/
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+
+}
+
+.rainbow__container {
+    width: 300px;
+    height: 150px;
+    position: relative;
+    /**** cache la partie inférieure du cercle avec la propriété overflow ****/
+    overflow: hidden;
+}
+
+.rainbow {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: conic-gradient(#ff0000,
+            #ff7f00,
+            #ffff00,
+            #00ff00,
+            #0000ff,
+            #4b0082,
+            #8b00ff,
+            #ff0000
+            /**** Répétition du rouge pour une transition fluide ****/
+        );
+    position: relative;
+    animation: colorRotation 4s linear infinite;
+}
+
+/**** Animation colorRotation ****/
+
+@keyframes colorRotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rainbow::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    background-color: #111111;
+    border-radius: 50%;
+}
