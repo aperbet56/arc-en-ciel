@@ -1,5 +1,7 @@
 ## 🌈 ARC-EN-CIEL ANIME EN HTML5 ET CSS3
 
+![Design preview for the project](./img/preview.png)
+
 ## 🚀 Le challenge
 
 Un composant web simple, léger et élégant représentant un arc-en-ciel en rotation continue, conçu uniquement avec du HTML5 et du CSS3 (sans JavaScript).
