@@ -42,3 +42,11 @@ arc_en_ciel/
 │
 └── README.md           # Fichier de documentation du projet
 ```
+
+## ⚙️ Personnalisation
+
+Vous pouvez facilement adapter le rendu visuel en modifiant quelques valeurs dans le fichier `style.css` :
+
+- **Vitesse de rotation** : Modifiez `4s` dans la propriété `animation` de la classe `.rainbow` (ex: `2s` pour aller plus vite, `8s` pour aller plus lentement).
+- **Épaisseur de l'arc** : Ajustez la valeur de `top`, `left`, `right`, `bottom` dans le pseudo-élément `.rainbow::after` (ex: `40px` pour un arc plus épais).
+- **Couleur de fond** : Si vous changez le `background-color` du `body`, n'oubliez pas d'appliquer la **même couleur** sur le `.rainbow::after` pour que le masque central reste invisible.
