@@ -24,6 +24,21 @@ Lien vers le projet :
 - Page web responsive
 - Desktop first
 - position absolute et relative
+- pseudo-élément after
 - Utilisation du normaliseur : le fichier normalize.css
 - Commentaires HTML
 - Commentaires CSS
+
+## 📂 Structure du projet
+
+```text
+arc_en_ciel/
+│
+├── index.html          # Page principale du site
+├── normalize.css       # Fichier normalize.css
+├── style.css           # Règles de design et animations
+│
+├── img/                # favicon et prewiew
+│
+└── README.md           # Fichier de documentation du projet
+```
