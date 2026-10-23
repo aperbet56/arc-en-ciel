@@ -23,6 +23,7 @@ Lien vers le projet :
 - Animations CSS (@keyframes)
 - Page web responsive
 - Desktop first
+- position absolute et relative
 - Utilisation du normaliseur : le fichier normalize.css
 - Commentaires HTML
 - Commentaires CSS
