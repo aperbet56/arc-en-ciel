@@ -20,6 +20,8 @@ body {
 
 }
 
+/**** div rainbow__container ****/
+
 .rainbow__container {
     width: 300px;
     height: 150px;
@@ -27,6 +29,8 @@ body {
     /**** cache la partie inférieure du cercle avec la propriété overflow ****/
     overflow: hidden;
 }
+
+/**** div rainbow ****/
 
 .rainbow {
     width: 300px;
